@@ -1,0 +1,699 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='136'>
+    <iu id='org.palladiosimulator.architecturaltemplates.feature.feature.group' name='Architectural Templates' version='1.0.6.201707091058'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.architecturaltemplates.examples.feature.feature.group' name='Architectural Templates - Default Catalog' version='1.0.4.201707091058'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='epp.package.dsl' name='Eclipse DSL Tools' version='4.6.3.20170314-1500'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.jdt.feature.group' name='Eclipse Java Development Tools' version='3.12.3.v20170301-0400'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/eclipse/updates/4.6'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.platform.feature.group' name='Eclipse Platform' version='4.6.3.v20170301-0400'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/eclipse/updates/4.6'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.pde.feature.group' name='Eclipse Plug-in Development Environment' version='3.12.3.v20170301-0400'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/eclipse/updates/4.6'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.rcp.feature.group' name='Eclipse RCP' version='4.6.3.v20170301-0400'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/eclipse/updates/4.6'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.ecoretools.design.feature.group' name='Ecore Diagram Editor' version='3.2.1.201703011420'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.edp2.feature.feature.group' name='EDP2 Core Feature' version='1.0.0.201702111052'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.edp2.ui.feature.feature.group' name='EDP2 UI Feature' version='1.0.1.201702111052'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.sdk.feature.group' name='EMF - Eclipse Modeling Framework SDK' version='2.12.0.v20160526-0356'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.ecore.xcore.sdk.feature.group' name='EMF - Eclipse Modeling Framework Xcore SDK' version='1.4.0.v20160526-0606'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.emfstore.client.feature.feature.group' name='EMFStore Client' version='1.2.0.v20140404-1123'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/emf-store/releases_12'/>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.emfstore.client.ui.feature.feature.group' name='EMFStore Client UI' version='1.2.0.v20140404-1123'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/emf-store/releases_12'/>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.emfstore.example.feature.feature.group' name='EMFStore Code Examples' version='1.2.0.v20140404-1123'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/emf-store/releases_12'/>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.emfstore.common.feature.feature.group' name='EMFStore Common' version='1.2.0.v20140404-1123'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/emf-store/releases_12'/>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.emfstore.sdk.feature.feature.group' name='EMFStore SDK' version='1.2.0.v20140404-1123'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/emf-store/releases_12'/>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.emfstore.server.feature.feature.group' name='EMFStore Server' version='1.2.0.v20140404-1123'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/emf-store/releases_12'/>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentanalysis.feature.feature.group' name='Experiment Analysis Feature' version='1.0.0.201703011423'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentautomation.application.feature.feature.group' name='Experiment Automation Application Feature' version='1.0.0.201705121528'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentautomation.examples.feature.feature.group' name='Experiment Automation Examples Feature' version='1.0.0.201705121528'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentautomation.feature.feature.group' name='Experiment Automation Feature' version='1.0.1.201705121528'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentautomation.application.tooladapter.simucom.feature.feature.group' name='Experiment Automation SimuCom Feature' version='1.0.0.201705121528'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature.feature.group' name='Experiment Automation SimuLizar Feature' version='1.0.0.201705121528'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.featuremodel.feature.featureinstanceeditor.feature.group' name='Feature Model Instance Editor' version='2.1.1.201511051634'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.common.feature.group' name='GEF Common' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.common.doc.feature.group' name='GEF Common Developer Documentation' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.common.sdk.feature.group' name='GEF Common SDK' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.fx.feature.group' name='GEF FX' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.fx.doc.feature.group' name='GEF FX Developer Documentation' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.fx.sdk.feature.group' name='GEF FX SDK' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.fx.jface.feature.group' name='GEF FX.JFace' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.fx.swt.feature.group' name='GEF FX.SWT' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.geometry.feature.group' name='GEF Geometry' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.geometry.doc.feature.group' name='GEF Geometry Developer Documentation' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.geometry.sdk.feature.group' name='GEF Geometry SDK' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.geometry.convert.fx.feature.group' name='GEF Geometry.Convert.FX' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.geometry.convert.swt.feature.group' name='GEF Geometry.Convert.SWT' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.layout.feature.group' name='GEF Layout' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.layout.doc.feature.group' name='GEF Layout Developer Documentation' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.gef.layout.sdk.feature.group' name='GEF Layout SDK' version='5.0.0.201706131249'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/tools/gef/updates/releases'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.henshin.sdk.feature.group' name='Henshin SDK (Incubation)' version='1.4.0.201611301251'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.mdsdprofiles.feature.feature.group' name='MDSD Profiles' version='1.0.1.201612061550'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.measurementframework.feature.feature.group' name='Measurement Framework' version='1.0.1.201607261438'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.metricspec.feature.feature.group' name='Metric Specification Feature' version='1.0.3.201610151428'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.monitorrepository.feature.feature.group' name='MonitorRepository Feature' version='3.0.0.201705161805'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.emf.mwe2.language.sdk.feature.group' name='MWE 2 language SDK' version='2.9.0.v201605261103'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.oomph.setup.feature.group' name='Oomph Setup' version='1.7.0.v20170305-1123'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.dialogs.feature.feature.group' name='Palladio Commons Dialogs' version='1.4.0.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.errorhandling.feature.feature.group' name='Palladio Commons Errorhandling' version='1.4.0.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.identifier.feature.feature.group' name='Palladio Commons Identifier' version='2.1.0.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.probfunction.feature.feature.group' name='Palladio Commons Probability Functions' version='2.1.1.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.stoex.feature.feature.group' name='Palladio Commons StoEx' version='2.2.0.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.units.feature.feature.group' name='Palladio Commons Units' version='2.1.1.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.pcm.feature.feature.group' name='Palladio Component Model' version='4.0.1.201707061926'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.solver.feature.feature.group' name='Palladio Component Model - Analyzer: Analytical Solver' version='4.0.1.201705161424'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.protocom.javaee.feature.feature.group' name='Palladio Component Model - Analyzer: ProtoCom for Java EE' version='1.0.0.201705121548'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.protocom.feature.feature.group' name='Palladio Component Model - Analyzer: ProtoCom for Java SE' version='4.0.1.201705121548'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.reliability.feature.feature.group' name='Palladio Component Model - Analyzer: Reliability' version='1.0.0.201607082239'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.simucom.feature.feature.group' name='Palladio Component Model - Analyzer: SimuCom' version='4.0.9.201705121539'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.simulizar.feature.feature.group' name='Palladio Component Model - Analyzer: SimuLizar' version='2.0.8.201705161842-8h_SEFbcPueBA312721262539'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.simulizar.reconfiguration.qvto.feature.feature.group' name='Palladio Component Model - Analyzer: SimuLizar - QVT Operational Reconfiguations' version='1.0.0.201705161842'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.simulizar.reconfiguration.storydiagram.feature.feature.group' name='Palladio Component Model - Analyzer: SimuLizar - Story Diagram Reconfiguations' version='1.0.0.201705161842'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.editors.commons.feature.feature.group' name='Palladio Component Model - Commons for Editor Development' version='1.0.2.201707090731'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.editors.gmf.feature.feature.group' name='Palladio Component Model - GMF Editors' version='4.0.1.201707090846'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.editors.sirius.feature.feature.group' name='Palladio Component Model - Sirius Editors' version='1.1.0.201707092321'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.editors.tree.feature.feature.group' name='Palladio Component Model - Tree Editors' version='4.0.1.201707090503'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.dsexplore.feature.feature.group' name='Palladio DSE (PerOpteryx)' version='4.0.1.201706121125'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.featuremodel.feature.model.feature.group' name='Palladio Feature Model' version='2.1.1.201511051634'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.featuremodel.feature.config.feature.group' name='Palladio Feature Model - Configuration' version='2.1.1.201511051634'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.commons.feature.feature.group' name='Palladio Simulator Commons Feature' version='1.5.3.201611171324-7D7P1cBtalw7QCJsJJJz-JXQe'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.statistics.feature.feature.group' name='Palladio Statistics Feature' version='1.4.0.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.workflow.feature.core.feature.group' name='Palladio Workflow Engine Core' version='2.2.0.201607261500'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.workflow.feature.mdsd.feature.group' name='Palladio Workflow Engine MDSD' version='2.2.0.201607261500'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.probeframework.feature.feature.group' name='ProbeFramework Feature' version='2.0.2.201607261438'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.recorderframework.feature.feature.group' name='RecorderFramework Feature' version='2.1.1.201607261422'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.scaledl.usageevolution.feature.feature.group' name='ScaleDL Usage Evoluton' version='1.0.0.201707092301'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.sensorframework.feature.feature.group' name='Sensor Framework Feature' version='4.0.0.201607261439'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.servicelevelobjective.feature.feature.group' name='Service Level Objectives Model Feature' version='1.0.0.201702111052'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='edu.kit.ipd.sdq.pcm.simulation.scheduler.exact.feature.feature.group' name='SimuCom Exact Scheduler AddOn' version='4.0.1.201705121531'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.architecturaltemplates.source.feature.feature.group' name='Source for Architectural Templates' version='1.0.6.201707091058'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.architecturaltemplates.examples.source.feature.feature.group' name='Source for Architectural Templates - Default Catalog' version='1.0.4.201707091058'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.edp2.source.feature.feature.group' name='Source for EDP2 Core Feature' version='1.0.0.201702111052'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.edp2.ui.source.feature.feature.group' name='Source for EDP2 UI Feature' version='1.0.1.201702111052'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentautomation.application.source.feature.feature.group' name='Source for Experiment Automation Application Feature' version='1.0.0.201705121528'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentautomation.examples.source.feature.feature.group' name='Source for Experiment Automation Examples Feature' version='1.0.0.201705121528'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentautomation.source.feature.feature.group' name='Source for Experiment Automation Feature' version='1.0.1.201705121528'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentautomation.application.tooladapter.simucom.source.feature.feature.group' name='Source for Experiment Automation SimuCom Feature' version='1.0.0.201705121528'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.source.feature.feature.group' name='Source for Experiment Automation SimuLizar Feature' version='1.0.0.201705121528'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.featuremodel.feature.featureinstanceeditor.source.feature.group' name='Source for Feature Model Instance Editor' version='2.1.1.201511051634'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.mdsdprofiles.source.feature.feature.group' name='Source for MDSD Profiles' version='1.0.1.201612061550'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.measurementframework.source.feature.feature.group' name='Source for Measurement Framework' version='1.0.1.201607261438'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.metricspec.source.feature.feature.group' name='Source for Metric Specification Feature' version='1.0.3.201610151428'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.monitorrepository.source.feature.feature.group' name='Source for MonitorRepository Feature' version='3.0.0.201705161805'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.dialogs.source.feature.feature.group' name='Source for Palladio Commons Dialogs' version='1.4.0.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.errorhandling.source.feature.feature.group' name='Source for Palladio Commons Errorhandling' version='1.4.0.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.identifier.source.feature.feature.group' name='Source for Palladio Commons Identifier' version='2.1.0.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.probfunction.source.feature.feature.group' name='Source for Palladio Commons Probability Functions' version='2.1.1.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.stoex.source.feature.feature.group' name='Source for Palladio Commons StoEx' version='2.2.0.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.units.source.feature.feature.group' name='Source for Palladio Commons Units' version='2.1.1.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.pcm.source.feature.feature.group' name='Source for Palladio Component Model' version='4.0.1.201707061926'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.solver.source.feature.feature.group' name='Source for Palladio Component Model - Analyzer: Analytical Solver' version='4.0.1.201705161424'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.protocom.javaee.source.feature.feature.group' name='Source for Palladio Component Model - Analyzer: ProtoCom for Java EE' version='1.0.0.201705121548'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.protocom.source.feature.feature.group' name='Source for Palladio Component Model - Analyzer: ProtoCom for Java SE' version='4.0.1.201705121548'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.reliability.source.feature.feature.group' name='Source for Palladio Component Model - Analyzer: Reliability' version='1.0.0.201607082239'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.simucom.source.feature.feature.group' name='Source for Palladio Component Model - Analyzer: SimuCom' version='4.0.9.201705121539'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.simulizar.source.feature.feature.group' name='Source for Palladio Component Model - Analyzer: SimuLizar' version='2.0.8.201705161842-8h_SEFbcPueBA312721262539'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.simulizar.reconfiguration.qvto.source.feature.feature.group' name='Source for Palladio Component Model - Analyzer: SimuLizar - QVT Operational Reconfiguations' version='1.0.0.201705161842'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.simulizar.reconfiguration.storydiagram.source.feature.feature.group' name='Source for Palladio Component Model - Analyzer: SimuLizar - Story Diagram Reconfiguations' version='1.0.0.201705161842'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.editors.commons.source.feature.feature.group' name='Source for Palladio Component Model - Commons for Editor Development' version='1.0.2.201707090731'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.editors.gmf.source.feature.feature.group' name='Source for Palladio Component Model - GMF Editors' version='4.0.1.201707090846'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.editors.sirius.source.feature.feature.group' name='Source for Palladio Component Model - Sirius Editors' version='1.1.0.201707092321'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.editors.tree.source.feature.feature.group' name='Source for Palladio Component Model - Tree Editors' version='4.0.1.201707090503'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.dsexplore.source.feature.feature.group' name='Source for Palladio DSE (PerOpteryx)' version='4.0.1.201706121125'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.featuremodel.feature.model.source.feature.group' name='Source for Palladio Feature Model' version='2.1.1.201511051634'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.featuremodel.feature.config.source.feature.group' name='Source for Palladio Feature Model - Configuration' version='2.1.1.201511051634'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.commons.source.feature.feature.group' name='Source for Palladio Simulator Commons Feature' version='1.5.3.201611171324-7D7P1cBtalw7QCJsJJJz-JXQe'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.statistics.source.feature.feature.group' name='Source for Palladio Statistics Feature' version='1.4.0.201611171324'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.workflow.feature.core.source.feature.group' name='Source for Palladio Workflow Engine Core' version='2.2.0.201607261500'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.workflow.feature.mdsd.source.feature.group' name='Source for Palladio Workflow Engine MDSD' version='2.2.0.201607261500'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.probeframework.source.feature.feature.group' name='Source for ProbeFramework Feature' version='2.0.2.201607261438'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.recorderframework.source.feature.feature.group' name='Source for RecorderFramework Feature' version='2.1.1.201607261422'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.sensorframework.source.feature.feature.group' name='Source for Sensor Framework Feature' version='4.0.0.201607261439'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.servicelevelobjective.source.feature.feature.group' name='Source for Service Level Objectives Model Feature' version='1.0.0.201702111052'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='edu.kit.ipd.sdq.pcm.simulation.scheduler.exact.source.feature.feature.group' name='Source for SimuCom Exact Scheduler AddOn' version='4.0.1.201705121531'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.simulation.abstractsimengine.ssj.source.feature.feature.group' name='Source for SSJ Simulation Engine Feature' version='4.0.0.201511051309'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.sensorframework.visualisation.source.feature.feature.group' name='Source for Visual Analysis Plugins for the Sensorframework' version='4.0.0.201607261440'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.simulation.abstractsimengine.ssj.feature.feature.group' name='SSJ Simulation Engine Feature' version='4.0.0.201511051309'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.team.svn.revision.graph.feature.group' name='Subversive Revision Graph (Optional)' version='4.0.0.I20160226-1700'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/technology/subversive/4.0/update-site/'/>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.team.svn.feature.group' name='Subversive SVN Team Provider' version='4.0.4.I20170216-1700'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/technology/subversive/4.0/update-site/'/>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='org.palladiosimulator.thirdpartywrapper.feature.feature.group' name='Third Party Wrapper' version='1.0.1.201609071545'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='de.uka.ipd.sdq.sensorframework.visualisation.feature.feature.group' name='Visual Analysis Plugins for the Sensorframework' version='4.0.0.201607261440'>
+      <repositories size='1'>
+        <repository location='https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.xtend.sdk.feature.group' name='Xtend IDE' version='2.11.0.v20170201-0242'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.xtend.gwt.feature.group' name='Xtend Library for GWT' version='2.10.0.v201605250459'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.xtext.sdk.feature.group' name='Xtext Complete SDK' version='2.11.0.v20170201-0242'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.xtext.redist.feature.group' name='Xtext Redistributable' version='2.11.0.v20170201-0242'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

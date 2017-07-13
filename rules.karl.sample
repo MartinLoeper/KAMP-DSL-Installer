@@ -1,0 +1,12 @@
+// we refer to the palladio component model (version 5.2)
+import "http://palladiosimulator.org/PalladioComponentModel/5.2" as pcm
+
+// we need these imports if we write code that targets the kamp submodules bp+is
+import-package edu.kit.ipd.sdq.kamp4bp.core
+import-package edu.kit.ipd.sdq.kamp4is.core
+import-package edu.kit.ipd.sdq.kamp4is.model.modificationmarks
+import-package edu.kit.ipd.sdq.kamp4bp.model.modificationmarks 
+
+// the rules which are converted to source code into the gen.rule folder
+//rule test: pcm::OperationSignature -> interface__OperationSignature;                        
+rule test: pcm::OperationSignature <- pcm::EntryLevelSystemCall[operationSignature__EntryLevelSystemCall];
