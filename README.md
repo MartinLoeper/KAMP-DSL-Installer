@@ -1,7 +1,7 @@
 ## PART 1 (Installation)
 
 * Download Eclipse Oxygen ([Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygenr))
-* Clone this repository in order to have access to the following files: <kbd>KAMP.launch</kbd>, <kbd>kamp_ruledsl_all_software_components.p2f</kbd>, <kbd>projectSet.psf</kbd>
+* Clone this repository in order to have access to the following files: `KAMP.launch, kamp_ruledsl_all_software_components.p2f, projectSet.psf`
 * <kbd>Import -> Install Software Items from File</kbd>
 * <kbd>Security Warning -> Install Anyway</kbd>
 * <kbd> Popup appears -> Restart Eclipse Now</kbd>
