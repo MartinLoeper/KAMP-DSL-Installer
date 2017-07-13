@@ -1,25 +1,26 @@
 ## PART 1 (Installation)
 
-* Download Eclipse (Eclipse IDE for Java Developers)
-* Import -> Install Software Items from File
-* Security Warning -> Install Anyway
-* Popup appears -> Restart Eclipse Now
+* Download Eclipse Oxygen ([Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygenr))
+* Clone this repository in order to have access to the following files: <kbd>KAMP.launch</kbd>, <kbd>kamp_ruledsl_all_software_components.p2f</kbd>, <kbd>projectSet.psf</kbd>
+* <kbd>Import -> Install Software Items from File</kbd>
+* <kbd>Security Warning -> Install Anyway</kbd>
+* <kbd> Popup appears -> Restart Eclipse Now</kbd>
 
 After Eclipse restarts:
 
-* Change file encoding to UTF-8: Window -> Preferences -> General -> Workspace : Text file encoding
-* Import -> Team -> Team Project Set
-* Change view via: arrow down -> Top Level Elements -> Working Sets
+* **Change file encoding to UTF-8**: <kbd>Window -> Preferences -> General -> Workspace : Text file encoding</kbd>
+* <kbd>Import -> Team -> Team Project Set</kbd>
+* **Change Package Explorer View**: <kbd>arrow down -> Top Level Elements -> Working Sets</kbd>
 * Wait some time until all references are resolved and workspace build process finished - 
-  you may watch the progress using the Progress view (Window -> Show View -> Progress)
-* **Trigger the mwe2 Workflow**: Navigate into KAMP-DSL/edu.kit.ipd.sdq.kamp.ruledsl/src/ into package edu.kit.ipd.sdq.kamp.ruledsl
- right click on GenerateKampRuleLanguage.mwe2 -> Run as -> MWE2 Workflow (ignore errors during launch - they will be resolved later);
-    * open the console via Window -> Show view -> Console and watch the progress
- * When it says 'Done.' we are... done!
+  you may watch the progress using the Progress view: <kbd>Window -> Show View -> Progress</kbd>
+* **Trigger the mwe2 Workflow**: Navigate into KAMP-DSL/edu.kit.ipd.sdq.kamp.ruledsl/src/ -> *package* edu.kit.ipd.sdq.kamp.ruledsl,
+ right click on <kbd>GenerateKampRuleLanguage.mwe2 -> Run as -> MWE2 Workflow</kbd> (ignore errors during launch - they will be resolved later);
+    * **Open the console**: <kbd>Window -> Show view -> Console</kbd> and watch the progress
+    * When it says 'Done.' we are... done!
  
- * **Import Launch Configuration** using File -> Import -> Run/Debug -> Launch Configurations -> Select the File xxxx -> Select the KAMP launch configuration for Eclipse Applications -> OK
-   * we provide a custom launch configuration in order to limit the bundles which are loaded at startup and thus elminating errors by these unnecessary bundles
-* Run -> KAMP (use the imported launch configuration)
+ * **Import Launch Configuration** using <kbd>File -> Import -> Run/Debug -> Launch Configurations -> Select the File xxxx -> Select the KAMP launch configuration for Eclipse Applications -> OK</kbd>
+   * *Why? we provide a custom launch configuration in order to limit the bundles which are loaded at startup and thus elminating errors by these unnecessary bundles*
+* <kbd>Run -> KAMP</kbd> (use the imported launch configuration)
 
  ## PART 2 (Create a simple project)
 
