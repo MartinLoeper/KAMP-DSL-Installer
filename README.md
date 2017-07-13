@@ -23,64 +23,68 @@ After Eclipse restarts:
 
  ## PART 2 (Create a simple project)
 
- * Create KAMP project using File -> New -> Other... -> Plugin-Project
-    * set 'Project name' e.g. MyKampProject -> Next -> Finish
-    * if you are asked to change the perspective you may do or do not. it does not matter
+ #### Create the KAMP4BP Project
+ * <kbd>File -> New -> Other... -> Plugin-Project</kbd>
+   * set 'Project name' e.g. 'MyKampProject' and then click <kbd>Next -> Finish</kbd>
+    * Eclipse Confirmation Dialog may appear which asks if you want to change the perspective. I do not recommend to do it, but it basically does not matter.
     * click on project root and create folder with name 'modified'
+    * **use this folder to insert all the following files**. That means, you must right click on this folder when creating files.
 	
-    * right click on this new folder and select New -> Other... -> Example EMP Model Creation Wizards -> Repository Model
-    * Next -> You may change the filename -> Next -> Model Object: Repository
+* **Create the Repository Model**: right click on the modified folder and select <kbd>New -> Other... -> Example EMP Model Creation Wizards -> Repository Model</kbd>
+  * <kbd>Next -> You may change the filename -> Next -> Model Object: Repository</kbd>
 	
-    * right click on modified folder and select New -> Other... -> Example EMP Model Creation Wizards -> BPModificationmarks Model
-	* Next (you may change the filename) -> Finish
+* **Create the BPModificationmarks Model**: right click on modified folder and select <kbd>New -> Other... -> Example EMP Model Creation Wizards -> BPModificationmarks Model</kbd>
+  * <kbd>Next (you may change the filename) -> Finish</kbd>
 	
-    * Create the entries in repository, e.g.:
-    * Double click My.repository (Repository Model Editor should open, if it does not do the following: rightclick on My.repository -> Open With -> Other... -> Repository Model Editor -> OK)
-    * expand the topmost tree element (xxx/modified/My.repository)
-    * right click item which states 'aName <Repository>' -> New Child -> Add OperationInterface as Interfaces
-    * right click on new item ->New Child -> Add OperationSignature as Signatures
-    * open Properties (if not available do the following: Window -> ShowVview -> Other... -> General -> Properties) and for each new item:
-    * give some menaningful names such as: MyInterface for Interfaces 'Entity Name' property, getXXX for OperationSignature and so on...
+* **Create the entries in repository**, e.g.:
+  * Double click My.repository (Repository Model Editor should open, if it does not do the following: rightclick on <kbd>My.repository -> Open With -> Other... -> Repository Model Editor -> OK</kbd>)
+  * expand the topmost tree element (xxx/modified/My.repository)
+  * right click item which states <kbd>'aName <Repository>' -> New Child -> Add OperationInterface as Interfaces</kbd>
+  * right click on new <kbd>item -> New Child -> Add OperationSignature as Signatures</kbd>
+  * open Properties (if not available do the following: <kbd>Window -> ShowView -> Other... -> General -> Properties</kbd>) and for each new item:
+    * give a menaningful name such as: MyInterface for Interface's *Entity Name* property, getXXX for OperationSignature and so on...
 	
-    * right click item which states 'aName <Repository>' -> New Child -> Add BasicComponent as Components
-    * right click new item -> New Child -> Add OperationProvidedRole as Provided Roles
-    * open Properties of the OperationProvidedRole
-    * insert a meaningful Entity Name such as: MyComponent
-    * click into the select box for 'Provided Interface Operation Provided Role' -> select 'Operation Interface MyInterface' (the only possibility)
+  * right click item which states <kbd>'aName <Repository>' -> New Child -> Add BasicComponent as Components</kbd>
+  * right click new <kbd>item -> New Child -> Add OperationProvidedRole as Provided Roles</kbd>
+  * open Properties of the OperationProvidedRole
+  * insert a meaningful Entity Name such as: MyComponent
+  * click into the select box for 'Provided Interface Operation Provided Role' -> select 'Operation Interface MyInterface' (the only possibility)
 	
 
-    * Create the entries in modificationmarks, e.g.:
-    * open modificationmarks in Modificationmarks Model Editor (analogue to steps above)
+* **Create the entries in modificationmarks**, e.g.:
+  * open modificationmarks in Modificationmarks Model Editor (analogue to steps above)
 	
-    * first we have to import the My.repository file into the ResourceSet: We do this by right clicking into the Resource Set view -> Load Resource... -> Browse Workspace... -> modified -> OK -> OK
+  * first, we have to import the My.repository file into the ResourceSet: We do this by right clicking into the <kbd>Resource Set view -> Load Resource... -> Browse Workspace... -> modified -> OK -> OK</kbd>
 	
-    * furthermore expand the topmost tree element (xxx/modified/My.modificationmarks) and the subitem BP Modification Repository
-    * right click item which states 'BP Seed Modifications' -> New Child -> IS Modify Signature
-    * open Properties of the new item 'IS Modify Signature'
-    * Click into the select box for 'Affected Element' and select 'Operation Signature getXXX' (the only possibility)
+  * furthermore expand the topmost tree element (xxx/modified/My.modificationmarks) and the subitem BP Modification Repository
+  * right click <kbd>item 'BP Seed Modifications' -> New Child -> IS Modify Signature</kbd>
+  * open Properties of the new item 'IS Modify Signature'
+  * Click into the select box for 'Affected Element' and select 'Operation Signature getXXX' (the only possibility)
 	
-    * Now that you know how to create the models, I just tell you what to do for the next one not how to do it. You should be able to do it on your own now... (-- please note that this guide is written towards a total beginner audience, that is why this is mentioned here --)
-    * Create a new model 'usagemodel' with a 'Usage Scenario' as first child
-    * Add the usagemodel into the ResourceSet of the My.modificationmarks file via Load Resource... etc. (see steps above)
-    * Add a 'Scenario Behaviour' to the 'Usage Scenario' as direct child element
-    * Add an 'Entry Level System Call' as child item of the 'Scenario Behaviour'
-    * Give the 'Entry Level System Call' the following properties: Entity Name -> mainMethodCall, Operation Signature Entry Level System Call -> Operation Signature getXXX (the only possible option)
+Now that you know how to create the models, I just tell you what to do for the next one not how to do it. You should be able to do it on your own now... (-- please note that this guide is written towards a total beginner audience, that is why this is mentioned here --)
+
+* Create a new model 'usagemodel' with a 'Usage Scenario' as first child
+  * Add the usagemodel into the ResourceSet of the My.modificationmarks file via Load Resource... etc. (see steps above)
+  * Add a 'Scenario Behaviour' to the 'Usage Scenario' as direct child element
+  * Add an 'Entry Level System Call' as child item of the 'Scenario Behaviour'
+  * Give the 'Entry Level System Call' the following properties: Entity Name -> mainMethodCall, Operation Signature Entry Level System Call -> Operation Signature getXXX (the only possible option)
 	
-	Now we have successfully set up a simple exemplary model.
-	Let's create our rules...
+Now we have successfully set up a simple exemplary model.
+
+#### Create the Rules
 	
-    * Right click on MyKampProject -> Create Rule Definition File
-    * Double click on rules.karl (it is located inside the project root)
-    * If a dialog asks you to convert the project into anXtext project -> Yes
-    * Paste in the example contents from: [... link missing ...]
-    * Save the file
-    * Apply the quick fix which is proposed (Add all Vitruvius dependencies)
-    * Make some change to the file (e.g. add a comment) -> Save the file
-    * Now the MyKampProject-rules project should be built automatically
-        * If an error occured, you can ignore it. It is a known bug (...reference missing...) that on setup something might go wrong
-        * If you got an error but the project is created, you may  ensure everything is ok by making a change to the rules.karl file (such as adding a comment) -> Save the rules.karl file
-            * Now a rebuilt is triggered which will fix all possible erros (such as missing dependencies)
-            * The rebuild should finish without error!
+* Right click on MyKampProject -> Create Rule Definition File
+* Double click on rules.karl (it is located inside the project root)
+* If a dialog asks you to convert the project into anXtext project -> Yes
+* Paste in the example contents from: [... link missing ...]
+* Save the file
+* Apply the quick fix which is proposed (Add all Vitruvius dependencies)
+* Make some change to the file (e.g. add a comment) -> Save the file
+* Now the MyKampProject-rules project should be built automatically
+     * If an error occured, you can ignore it. It is a known bug (...reference missing...) that on setup something might go wrong
+     * If you got an error but the project is created, you may  ensure everything is ok by making a change to the rules.karl file (such as adding a comment) -> Save the rules.karl file
+      * Now a rebuilt is triggered which will fix all possible erros (such as missing dependencies)
+      * The rebuild should finish without error!
     * Now you have successfully set up the rule creation
     * You can verify it by opening the My.modificationmarks file with the Modificationmarks Model Editor -> right click on BP Modification Repository -> Step 3: Calculate change propagation
     * Now all steps should be computed as expected
