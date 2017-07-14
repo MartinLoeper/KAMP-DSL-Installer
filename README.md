@@ -119,7 +119,7 @@ LookupUtil.lookupMarkedObjectsWithLookupMethod(version, OperationSignature.class
 ```
 Do not forget to add the following inside the onRegisterReady method of your RuleProviderImpl class inside the source package: `override(new MyTestRule());`
 
-This will unregister the generated *TestRule* and registers your *MyTestRule*.
+This unregisters the generated *TestRule* and registers your *MyTestRule*.
 	
 -------------------------------------------------------	
 TODO:
