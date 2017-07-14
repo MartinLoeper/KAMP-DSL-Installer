@@ -61,9 +61,9 @@ After Eclipse restarts:
   * open Properties of the new item 'IS Modify Signature'
   * Click into the select box for 'Affected Element' and select 'Operation Signature getXXX' (the only possibility)
 	
-Now that you know how to create the models, I just tell you what to do for the next one not how to do it. You should be able to do it on your own now... (-- please note that this guide is written towards a total beginner audience, that is why this is mentioned here --)
+Now that you know how to create the models, I just tell you what to do for the next one not how to do it. You should be able to do it on your own now ;) * --  please note that this guide is written towards a total beginner audience, that is why this is mentioned here*
 
-* Create a new model 'usagemodel' with a 'Usage Scenario' as first child
+* **Create a new model of type 'usagemodel'** with a 'Usage Scenario' as first child
   * Add the usagemodel into the ResourceSet of the My.modificationmarks file via Load Resource... etc. (see steps above)
   * Add a 'Scenario Behaviour' to the 'Usage Scenario' as direct child element
   * Add an 'Entry Level System Call' as child item of the 'Scenario Behaviour'
