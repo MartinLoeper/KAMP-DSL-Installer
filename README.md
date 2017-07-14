@@ -78,10 +78,10 @@ Now we have successfully set up a simple exemplary model.
 * If a dialog asks you to convert the project into an Xtext project -> Yes
 * Paste in the example contents from: [rules.karl sample file](https://github.com/MartinLoeper/KAMP-DSL-Installer/blob/master/rules.karl.sample)
 * Save the file
-* Apply the quick fix which is proposed (Add all Vitruvius dependencies)
+* Apply the quick fix which is proposed (*Add all Vitruvius dependencies*)
 * Make some change to the file (e.g. add a comment) -> Save the file
 * Now the MyKampProject-rules project should be built automatically
-     * If an error occured, you can ignore it. It is a known bug (...reference missing...) that on setup something might go wrong
+     * If an error occured, you can ignore it. It is a known bug ([#25](https://github.com/MartinLoeper/KAMP-DSL/issues/25)) that on setup something might go wrong
      * If you got an error but the project is created, you may  ensure everything is ok by making a change to the rules.karl file (such as adding a comment) -> Save the rules.karl file
       * Now a rebuilt is triggered which will fix all possible erros (such as missing dependencies)
       * The rebuild should finish without error!
@@ -92,12 +92,12 @@ Now we have successfully set up a simple exemplary model.
     * Now you may go on writing more advanced KAMP rules!
 	
 ## PART 3 (advanced- how to test the lookup and apply method)
-    * you may want to test the lookup method: Open the file src.RuleProviderImpl.java and remove the custom rule which was added via override (i.e. remove the whole override method invokation with the sample anonymous class)
-    * create a subclass of the TestRule called 'MyTestRule' inside the src package
-    * override the apply method
-    * call the lookup method inside your overriden apply method
-    * you may output the result to System.out: please note that it written to the outer Eclipse console
-    * you may also output the result via a message dialog, see sample call [... snippet url with the following contents...]
+* Open the file src.RuleProviderImpl.java and remove the custom rule which was added via override (i.e. remove the whole override method invokation with the sample anonymous class)
+* create a subclass of the TestRule called 'MyTestRule' inside the src package
+* override the apply method
+* call the lookup method inside your overriden apply method
+* you may output the result to System.out: please note that it written to the outer Eclipse console
+* you may also output the result via a message dialog, see sample call:
 
 ```java
 final StringBuilder message = new StringBuilder();
@@ -118,6 +118,8 @@ LookupUtil.lookupMarkedObjectsWithLookupMethod(version, OperationSignature.class
     });
 ```
 Do not forget to add the following inside the onRegisterReady method of your RuleProviderImpl class inside the source package: `override(new MyTestRule());`
+
+This will unregister the generated *TestRule* and registers your *MyTestRule*.
 	
 -------------------------------------------------------	
 TODO:
