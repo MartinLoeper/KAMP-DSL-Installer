@@ -125,7 +125,9 @@ Do not forget to add the following inside the onRegisterReady method of your Rul
 This unregisters the generated *TestRule* and registers your *MyTestRule*.
 	
 -------------------------------------------------------	
-TODO:
+
+### TBD
+
 - explain how to deactivate the standard rules
 - what happens if client code triggers an exception
 - what are the current limititions and known bugs (e.g. one project per workspace)
@@ -134,6 +136,5 @@ TODO:
 - how to extend the generated rules (and how are the rules named... name+'Rule' classname) and limititions such as public constructor
     - one may implement a subclass or an anonymous class
 - how to insert the lookups into the tree? (PART 3)
-
 - mention a separate install config for Neon since Oxygen is the current version now and all others are deprecated!!
 - mention: the team set references the Rule branches not master -> change this in future once the module is stable
