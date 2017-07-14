@@ -24,7 +24,7 @@ After Eclipse restarts:
  ## PART 2 (Create a simple project)
 
  #### Create the KAMP4BP Project
- * <kbd>File -> New -> Other... -> Plugin-Project</kbd>
+ * Click on <kbd>File -> New -> Other... -> Plugin-Project</kbd>
    * set 'Project name' e.g. 'MyKampProject' and then click <kbd>Next -> Finish</kbd>
     * Eclipse Confirmation Dialog may appear which asks if you want to change the perspective. I do not recommend to do it, but it basically does not matter.
     * click on project root and create folder with name 'modified'
