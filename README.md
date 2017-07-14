@@ -1,3 +1,7 @@
+# Tutorial
+#### About
+This installer provides you with a minimal set of files that lets you set-up all required resources for KAMP-DSL development much faster than a manual installation. For a manual install refer to the [README of KAMP-DSL](https://github.com/MartinLoeper/KAMP-DSL).
+
 ## PART 1 (Installation)
 
 * Download Eclipse Oxygen ([Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygenr))
