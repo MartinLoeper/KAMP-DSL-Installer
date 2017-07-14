@@ -102,6 +102,9 @@ Now we have successfully set up a simple exemplary model.
 ```java
 final StringBuilder message = new StringBuilder();
 message.append("We found the following elements:\n");
+
+[YOU CAN BUILD THE MESSAGE HERE BY ITERATION OVER THE LOOKUPS]
+
 Display.getDefault().syncExec(new Runnable() {
     public void run() {
         Shell shell = PlatformUI.getWorkbench().getActiveWorkbenchWindow().getShell();
