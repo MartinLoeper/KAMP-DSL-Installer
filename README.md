@@ -61,7 +61,7 @@ After Eclipse restarts:
   * open Properties of the new item 'IS Modify Signature'
   * Click into the select box for 'Affected Element' and select 'Operation Signature getXXX' (the only possibility)
 	
-Now that you know how to create the models, I just tell you what to do for the next one not how to do it. You should be able to do it on your own now ;) * --  please note that this guide is written towards a total beginner audience, that is why this is mentioned here*
+Now that you know how to create the models, I just tell you what to do for the next one not how to do it. You should be able to do it on your own now ;) *--  please note that this guide is written towards a total beginner audience, that is why this is mentioned here*
 
 * **Create a new model of type 'usagemodel'** with a 'Usage Scenario' as first child
   * Add the usagemodel into the ResourceSet of the My.modificationmarks file via Load Resource... etc. (see steps above)
@@ -75,8 +75,8 @@ Now we have successfully set up a simple exemplary model.
 	
 * Right click on MyKampProject -> Create Rule Definition File
 * Double click on rules.karl (it is located inside the project root)
-* If a dialog asks you to convert the project into anXtext project -> Yes
-* Paste in the example contents from: [... link missing ...]
+* If a dialog asks you to convert the project into an Xtext project -> Yes
+* Paste in the example contents from: [rules.karl sample file](https://github.com/MartinLoeper/KAMP-DSL-Installer/blob/master/rules.karl.sample)
 * Save the file
 * Apply the quick fix which is proposed (Add all Vitruvius dependencies)
 * Make some change to the file (e.g. add a comment) -> Save the file
