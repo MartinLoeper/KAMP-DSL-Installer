@@ -1,6 +1,6 @@
 # Tutorial
 #### About
-This installer provides you with a minimal set of files that lets you set-up all required resources for KAMP-DSL development much faster than a manual installation. For a manual install refer to the [README of KAMP-DSL](https://github.com/MartinLoeper/KAMP-DSL).
+This installer provides you with a minimal set of files that lets you set-up all required resources for KAMP-DSL development much faster than a manual installation. For a manual install refer to the [README of KAMP-DSL](https://github.com/MartinLoeper/KAMP-DSL/blob/master/README.md).
 
 ## PART 1 (Installation)
 
