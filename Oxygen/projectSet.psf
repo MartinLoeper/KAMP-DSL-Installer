@@ -61,11 +61,11 @@
 <project reference="1.0,https://github.com/MartinLoeper/KAMP,KampRuleLanguageIntegration,edu.kit.ipd.sdq.kamp.model.modificationmarks.edit"/>
 <project reference="1.0,https://github.com/MartinLoeper/KAMP,KampRuleLanguageIntegration,edu.kit.ipd.sdq.kamp.model.modificationmarks.editor"/>
 <project reference="1.0,https://github.com/MartinLoeper/KAMP,KampRuleLanguageIntegration,edu.kit.ipd.sdq.kamp.model.modificationmarks.tests"/>
-<project reference="1.0,git@github.com:MartinLoeper/KAMP-DSL.git,RuleBundle,edu.kit.ipd.sdq.kamp.ruledsl"/>
-<project reference="1.0,git@github.com:MartinLoeper/KAMP-DSL.git,RuleBundle,edu.kit.ipd.sdq.kamp.ruledsl.ide"/>
-<project reference="1.0,git@github.com:MartinLoeper/KAMP-DSL.git,RuleBundle,edu.kit.ipd.sdq.kamp.ruledsl.tests"/>
-<project reference="1.0,git@github.com:MartinLoeper/KAMP-DSL.git,RuleBundle,edu.kit.ipd.sdq.kamp.ruledsl.ui"/>
-<project reference="1.0,git@github.com:MartinLoeper/KAMP-DSL.git,RuleBundle,edu.kit.ipd.sdq.kamp.ruledsl.ui.tests"/>
+<project reference="1.0,git@github.com:MartinLoeper/KAMP-DSL.git,master,edu.kit.ipd.sdq.kamp.ruledsl"/>
+<project reference="1.0,git@github.com:MartinLoeper/KAMP-DSL.git,master,edu.kit.ipd.sdq.kamp.ruledsl.ide"/>
+<project reference="1.0,git@github.com:MartinLoeper/KAMP-DSL.git,master,edu.kit.ipd.sdq.kamp.ruledsl.tests"/>
+<project reference="1.0,git@github.com:MartinLoeper/KAMP-DSL.git,master,edu.kit.ipd.sdq.kamp.ruledsl.ui"/>
+<project reference="1.0,git@github.com:MartinLoeper/KAMP-DSL.git,master,edu.kit.ipd.sdq.kamp.ruledsl.ui.tests"/>
 <project reference="1.0,https://github.com/MartinLoeper/KAMP,KampRuleLanguageIntegration,edu.kit.ipd.sdq.kamp.tests"/>
 <project reference="1.0,https://github.com/MartinLoeper/KAMP,KampRuleLanguageIntegration,edu.kit.ipd.sdq.kamp.updatesite"/>
 <project reference="1.0,https://github.com/MartinLoeper/KAMP4BP,KampRuleLanguageIntegration_BP,edu.kit.ipd.sdq.kamp4bp"/>
