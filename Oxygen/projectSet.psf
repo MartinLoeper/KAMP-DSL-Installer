@@ -86,6 +86,11 @@
 <project reference="1.0,https://github.com/KAMP-Research/KAMP4IS,master,edu.kit.ipd.sdq.kamp4is.model.modificationmarks.edit"/>
 <project reference="1.0,https://github.com/KAMP-Research/KAMP4IS,master,edu.kit.ipd.sdq.kamp4is.model.modificationmarks.editor"/>
 <project reference="1.0,https://github.com/KAMP-Research/KAMP4IS,master,edu.kit.ipd.sdq.kamp4is.model.modificationmarks.tests"/>
+<project reference="1.0,https://github.com/MartinLoeper/KAMP4REQ,KampRuleLanguageIntegration_REQ,edu.kit.ipd.sdq.kamp4req"/>
+<project reference="1.0,https://github.com/MartinLoeper/KAMP4REQ,KampRuleLanguageIntegration_REQ,edu.kit.ipd.sdq.kamp4req.model.modificationmarks"/>
+<project reference="1.0,https://github.com/MartinLoeper/KAMP4REQ,KampRuleLanguageIntegration_REQ,edu.kit.ipd.sdq.kamp4req.model.modificationmarks.edit"/>
+<project reference="1.0,https://github.com/MartinLoeper/KAMP4REQ,KampRuleLanguageIntegration_REQ,edu.kit.ipd.sdq.kamp4req.model.modificationmarks.editor"/>
+<project reference="1.0,https://github.com/MartinLoeper/KAMP4REQ,KampRuleLanguageIntegration_REQ,edu.kit.ipd.sdq.kamp4req.model.modificationmarks.tests"/>
 <project reference="1.0,https://github.com/KAMP-Research/KAMP4IS,master,org.palladiosimulator.pcm.componentinternaldependencies"/>
 <project reference="1.0,https://github.com/kit-sdq/SDQ-Commons.git,master,."/>
 <project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.common"/>
@@ -227,6 +232,13 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edu.kit.ipd.sdq.kamp4is.model.fieldofactivityannotations" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edu.kit.ipd.sdq.kamp4is.model.modificationmarks.editor" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edu.kit.ipd.sdq.kamp4is.model.modificationmarks.edit" type="4"/>
+</workingSets>
+<workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1500249816261_9" label="KAMP4REQ" name="KAMP4REQ">
+<item elementID="=edu.kit.ipd.sdq.kamp4req" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=edu.kit.ipd.sdq.kamp4req.model.modificationmarks" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=edu.kit.ipd.sdq.kamp4req.model.modificationmarks.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=edu.kit.ipd.sdq.kamp4req.model.modificationmarks.editor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=edu.kit.ipd.sdq.kamp4req.model.modificationmarks.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1499339539804_15" label="SDQ-Commons" name="SDQ-Commons">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edu.kit.ipd.sdq.commons.util.java" type="4"/>
