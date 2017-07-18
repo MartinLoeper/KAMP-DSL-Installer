@@ -67,11 +67,13 @@ After Eclipse restarts:
 	
 Now that you know how to create the models, I just tell you what to do for the next one not how to do it. You should be able to do it on your own now ;) *--  please note that this guide is written towards a total beginner audience, that is why this is mentioned here*
 
-* **Create a new model of type 'usagemodel'** with a 'Usage Scenario' as first child
-  * Add the usagemodel into the ResourceSet of the My.modificationmarks file via Load Resource... etc. (see steps above)
+* **Create a new model of type 'bpusagemodel'** with a 'Usage Scenario' as first child
+  * Add the bpusagemodel into the ResourceSet of the My.modificationmarks file via Load Resource... etc. (see steps above)
   * Add a 'Scenario Behaviour' to the 'Usage Scenario' as direct child element
   * Add an 'Entry Level System Call' as child item of the 'Scenario Behaviour'
   * Give the 'Entry Level System Call' the following properties: Entity Name -> mainMethodCall, Operation Signature Entry Level System Call -> Operation Signature getXXX (the only possible option)
+  
+> If you do not see items in the select field, make sure to import all resources you created in previous steps inside the Resource Set.
 	
 Now we have successfully set up a simple exemplary model.
 
@@ -94,6 +96,8 @@ Now we have successfully set up a simple exemplary model.
     * Now all steps should be computed as expected
     * You will also get a dialog which says: 'Custom rule is working!'
     * Now you may go on writing more advanced KAMP rules!
+    
+> Please note: There are currently some open bugs. If you experience errors, please check if it is a known issue first before contacting a developer. Github Issues: https://github.com/MartinLoeper/KAMP-DSL/issues?q=is%3Aissue+is%3Aopen+label%3Abug
 	
 ## PART 3 (advanced- how to test the lookup and apply method)
 * Open the file src.RuleProviderImpl.java and remove the custom rule which was added via override (i.e. remove the whole override method invokation with the sample anonymous class)
