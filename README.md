@@ -96,6 +96,8 @@ Now we have successfully set up a simple exemplary model.
     * Now all steps should be computed as expected
     * You will also get a dialog which says: 'Custom rule is working!'
     * Now you may go on writing more advanced KAMP rules!
+    
+> Please note: There are currently some open bugs. If you experience errors, please check if it is a known issue first before contacting a developer. Github Issues: https://github.com/MartinLoeper/KAMP-DSL/issues?q=is%3Aissue+is%3Aopen+label%3Abug
 	
 ## PART 3 (advanced- how to test the lookup and apply method)
 * Open the file src.RuleProviderImpl.java and remove the custom rule which was added via override (i.e. remove the whole override method invokation with the sample anonymous class)
