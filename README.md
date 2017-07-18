@@ -25,6 +25,9 @@ After Eclipse restarts:
  * **Import Launch Configuration** using <kbd>File -> Import -> Run/Debug -> Launch Configurations -> Select the File KAMP.launch -> Select all configs -> OK</kbd><p>Why? we provide a custom launch configuration in order to limit the bundles which are loaded at startup and thus elminating errors by these unnecessary bundles</p>
 * <kbd>Run -> KAMP</kbd> (use the imported launch configuration)
 
+> #### Known Issues
+> If you have projects inside your %HOME%/git directory and their names collide with those imported by the Team Project Set, you may get error messages. There is a simple workaround for this issue. Navigate into <kbd>Window -> Preferences -> Team -> Git</kbd>. There is a header called *Cloning repositories* -> change the *Default repository folder*.
+
  ## PART 2 (Create a simple project)
 
  #### Create the KAMP4BP Project
