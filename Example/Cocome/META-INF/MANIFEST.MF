@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: Cocome
+Bundle-Name: Cocome
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: edu.kit.ipd.sdq.kamp.ruledsl.ui, org.eclipse.xtend.lib
+ , org.eclipse.core.resources,org.eclipse.emf.compare, tools.vitruv.ex
+ tensions.dslsruntime.mapping, com.google.guava, tools.vitruv.framewor
+ k.change, tools.vitruv.framework.change.processing,edu.kit.ipd.sdq.ka
+ mp.ruledsl, tools.vitruv.framework.correspondence, tools.vitruv.frame
+ work.userinteraction,org.eclipse.ui,org.palladiosimulator.pcm, tools.
+ vitruv.framework.util, org.eclipse.xtend.lib.macro, org.eclipse.emf.e
+ core, tools.vitruv.extensions.dslsruntime.reactions,org.apache.log4j
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: edu.kit.ipd.sdq.kamp.architecture,edu.kit.ipd.sdq.kamp
+ .propagation,edu.kit.ipd.sdq.kamp.util,edu.kit.ipd.sdq.kamp4bp.model.
+ modificationmarks,edu.kit.ipd.sdq.kamp4bp.core,edu.kit.ipd.sdq.kamp.m
+ odel.modificationmarks,edu.kit.ipd.sdq.kamp4is.model.modificationmark
+ s,edu.kit.ipd.sdq.kamp4is.core,edu.kit.ipd.sdq.kamp.ruledsl.support
+

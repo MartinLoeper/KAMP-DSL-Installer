@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="cocome-cloud">
+  <linkingResources__ResourceEnvironment id="_e4dlMFoWEeavDPeSvLqz1Q" entityName="StoreServer-EnterpriseServer" connectedResourceContainers_LinkingResource="_wMHoI1mDEeafw8jrX0KOKw _tutKg1mDEeafw8jrX0KOKw"/>
+  <resourceContainer_ResourceEnvironment id="_wMHoI1mDEeafw8jrX0KOKw" entityName="EnterpriseServer"/>
+  <resourceContainer_ResourceEnvironment id="_tutKg1mDEeafw8jrX0KOKw" entityName="StoreServer"/>
+  <resourceContainer_ResourceEnvironment id="_RctKsVoWEeavDPeSvLqz1Q" entityName="WebNode"/>
+</resourceenvironment:ResourceEnvironment>

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Comment: Do NOT MODIFY THIS FILE, use import-package in .karl file for dependencies
+Bundle-ManifestVersion: 2
+Bundle-Name: edu.kit.ipd.sdq.kamp.ruledsl.lookup.bundle.q29jb21l
+Bundle-SymbolicName: edu.kit.ipd.sdq.kamp.ruledsl.lookup.bundle.q29jb21l; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: Martin Loeper (KIT)
+Require-Bundle: org.eclipse.ui,org.eclipse.emf.compare,org.palladiosimulator.pcm,edu.kit.ipd.sdq.kamp.ruledsl.ui,edu.kit.ipd.sdq.kamp.ruledsl
+Export-Package: .
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: gen.Activator
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Import-Package: edu.kit.ipd.sdq.kamp.architecture,edu.kit.ipd.sdq.kamp.propagation,edu.kit.ipd.sdq.kamp.util,edu.kit.ipd.sdq.kamp4bp.model.modificationmarks,edu.kit.ipd.sdq.kamp4bp.core,edu.kit.ipd.sdq.kamp.model.modificationmarks,edu.kit.ipd.sdq.kamp4is.model.modificationmarks,edu.kit.ipd.sdq.kamp4is.core,edu.kit.ipd.sdq.kamp.ruledsl.support
