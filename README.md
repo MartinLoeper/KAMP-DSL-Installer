@@ -134,7 +134,11 @@ LookupUtil.lookupMarkedObjectsWithLookupMethod(version, OperationSignature.class
 Do not forget to add the following inside the onRegisterReady method of your RuleProviderImpl class inside the source package: `override(new MyTestRule());`
 
 This unregisters the generated *TestRule* and registers your *MyTestRule*.
-	
+
+## PART 4 (CoCoME Example)
+There is an example for replacing a KAMP internal rule with one which is expressed using KAMP-DSL.
+Please visit the [https://github.com/MartinLoeper/KAMP-DSL-Installer/wiki/Example](Example Wiki Topic).
+
 -------------------------------------------------------	
 
 ### TBD
