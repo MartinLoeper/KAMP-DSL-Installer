@@ -13,7 +13,7 @@ This installer provides you with a minimal set of files that lets you set-up all
 After Eclipse restarts:
 
 * **Change file encoding to UTF-8**: <kbd>Window -> Preferences -> General -> Workspace : Text file encoding</kbd>
-* <kbd>Import -> Team -> Team Project Set -> Select File projectSet.psf</kbd>
+* **Import all Sources**: <kbd>Import -> Team -> Team Project Set -> Select File projectSet.psf</kbd>
 * **Change Package Explorer View**: <kbd>Arrow down -> Top Level Elements -> Working Sets</kbd>
 * Wait some time until all references are resolved and workspace build process finished - 
   you may watch the progress using the Progress view: <kbd>Window -> Show View -> Progress</kbd>
