@@ -1,0 +1,91 @@
+// we refer to the palladio component model (version 5.2)
+import "http://palladiosimulator.org/PalladioComponentModel/5.2" as pcm
+
+// we need these imports if we write code that targets the kamp submodules bp+is
+import-package edu.kit.ipd.sdq.kamp4bp.core
+import-package edu.kit.ipd.sdq.kamp4is.core
+import-package edu.kit.ipd.sdq.kamp4is.model.modificationmarks
+import-package edu.kit.ipd.sdq.kamp4bp.model.modificationmarks      
+                           
+step BPChangePropagationDueToDataDependencies_EntryLevelSystemCallModifications {   	                 
+	// 7 DataType -> EntryLevelSystemCall
+	// calculateAndMarkDataTypeToEntryLevelSystemCallPropagation(version);
+	rule lookUpEntryLevelSystemCallsWithParameterOfTypesFromReturnType:
+		pcm::DataType <- pcm::OperationSignature[returnType__OperationSignature] <- pcm::EntryLevelSystemCall[operationSignature__EntryLevelSystemCall];
+		insert edu.kit.ipd.sdq.kamp4bp.model.modificationmarks.BPModificationmarksFactory#createBPModifyEntryLevelSystemCall 
+		into edu.kit.ipd.sdq.kamp4bp.model.modificationmarks.BPChangePropagationDueToDataDependencies#getEntryLevelSystemCallModifications;
+	
+	rule lookUpEntryLevelSystemCallsWithParameterOfTypesFromParameter:
+		pcm::DataType <- pcm::Parameter[dataType__Parameter] <- pcm::OperationSignature[parameters__OperationSignature] <- pcm::EntryLevelSystemCall[operationSignature__EntryLevelSystemCall];
+		insert edu.kit.ipd.sdq.kamp4bp.model.modificationmarks.BPModificationmarksFactory#createBPModifyEntryLevelSystemCall 
+		into edu.kit.ipd.sdq.kamp4bp.model.modificationmarks.BPChangePropagationDueToDataDependencies#getEntryLevelSystemCallModifications;
+		
+	// 8 DataType/EntryLevelSystemCall/Signature -> Interface
+	// calculateAndMarkToInterfacePropagation(version);
+	
+	// operation interface
+	// TODO there is no feature to add an ISModifySignature into an item of type ISModifyInterface
+//	rule lookUpInterfacesAndSignaturesWithSignatures:
+//		pcm::Signature <- pcm::OperationInterface[signatures__OperationInterface]
+//		insert edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISModificationmarksFactory#createISModifySignature
+//		into edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISChangePropagationDueToDataDependencies#get;
+//	
+//	// event type	
+//	rule lookUpInterfacesAndSignaturesWithSignatures2:
+//		pcm::Signature <- pcm::EventGroup[eventTypes__EventGroup];
+	  
+	// operation interface from parameter
+	rule lookUpInterfacesAndSignaturesWithParametersOfTypesFromParameter:
+		pcm::DataType <- pcm::Parameter[dataType__Parameter] <- pcm::OperationSignature[parameters__OperationSignature]* <- pcm::OperationInterface[signatures__OperationInterface];
+		insert edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISModificationmarksFactory#createISModifyInterface
+		into edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISChangePropagationDueToDataDependencies#getInterfaceModifications; 
+		
+	// operation interface from return type
+	rule lookUpInterfacesAndSignaturesWithParametersOfTypesFromReturnType:
+		pcm::DataType <- pcm::OperationSignature[returnType__OperationSignature]* <- pcm::OperationInterface[signatures__OperationInterface];
+		insert edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISModificationmarksFactory#createISModifyInterface
+		into edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISChangePropagationDueToDataDependencies#getInterfaceModifications;
+	
+	// event group from parameter
+	rule lookUpInterfacesAndSignaturesWithParametersOfTypesFromParameter2:
+		pcm::DataType <- pcm::Parameter[dataType__Parameter] <- pcm::EventType[parameter__EventType]* <- pcm::EventGroup[eventTypes__EventGroup];
+		insert edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISModificationmarksFactory#createISModifyInterface
+		into edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISChangePropagationDueToDataDependencies#getInterfaceModifications;
+		
+	// TODO there is no feature to add an ISModifySignature into an item of type ISModifyInterface	
+//	// operation signature from parameter
+//	rule lookUpInterfacesAndSignaturesWithParametersOfTypesFromParameter_sig:
+//		pcm::DataType <- pcm::Parameter[dataType__Parameter] <- pcm::OperationSignature[parameters__OperationSignature];
+//		
+//	// operation signature from return type
+//	rule lookUpInterfacesAndSignaturesWithParametersOfTypesFromReturnType_sig:
+//		pcm::DataType <- pcm::OperationSignature[returnType__OperationSignature];
+//	
+//	// event type from parameter
+//	rule lookUpInterfacesAndSignaturesWithParametersOfTypesFromParameter2_eventtype:
+//		pcm::DataType <- pcm::Parameter[dataType__Parameter] <- pcm::EventType[parameter__EventType];
+	
+	// interface -> signature (affected, causing)	
+	rule lookUpInterfacesAndSignaturesWithEntryLevelSystemCalls:
+		pcm::EntryLevelSystemCall -> operationSignature__EntryLevelSystemCall* <- pcm::OperationInterface[signatures__OperationInterface];
+		insert edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISModificationmarksFactory#createISModifyInterface
+		into edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISChangePropagationDueToDataDependencies#getInterfaceModifications;
+
+	// TODO This method is definitely not completely translated!!
+	// TODO the getSignatureModification collection causes automatically created Inter Business Process Proagation Marks for EntryLevelSystemCalls!!		
+	// TODO there is no feature to add an ISModifySignature into an item of type ISModifyInterface (Sub-Modification Mark Issue)
+//	// signature -> elsc (affected, causing)
+//	rule lookUpInterfacesAndSignaturesWithEntryLevelSystemCalls2:
+//		pcm::EntryLevelSystemCall -> operationSignature__EntryLevelSystemCall;
+//		insert edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISModificationmarksFactory#createISMo
+//		into edu.kit.ipd.sdq.kamp4is.model.modificationmarks.ISChangePropagationDueToDataDependencies#getInterfaceModifications;
+}
+        
+step AbstractUserActionModifications__BPInterBusinessProcessPropagation {
+	// 4 Signature -> EntryLevelSystemCall
+	// calculateAndMarkSignatureToEntryLevelSystemCallPropagation(version, elementsMarkedInThisStep);
+	rule lookUpEntryLevelSystemCallsWithSignatures:        
+		pcm::OperationSignature <- pcm::EntryLevelSystemCall[operationSignature__EntryLevelSystemCall];
+		insert edu.kit.ipd.sdq.kamp4bp.model.modificationmarks.BPModificationmarksFactory#createBPModifyEntryLevelSystemCall
+		into edu.kit.ipd.sdq.kamp4bp.model.modificationmarks.BPInterBusinessProcessPropagation#getAbstractUserActionModifications;
+}  

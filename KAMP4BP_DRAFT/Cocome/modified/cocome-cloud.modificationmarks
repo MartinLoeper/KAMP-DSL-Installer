@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modificationmarks:ReqModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:modificationmarks="http://sdq.ipd.kit.edu/KAMP4ReqModificationmarks/1.0" xmlns:modificationmarks_1="http://sdq.ipd.kit.edu/KAMP4BPModificationmarks/1.0" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
+  <seedModifications xsi:type="modificationmarks:ReqSeedModifications">
+    <dataTypeModifications>
+      <affectedElement xsi:type="repository:CompositeDataType" href="cocome-cloud.repository#_kXSy8tYgEeWrM-HnT5f_ug"/>
+    </dataTypeModifications>
+    <dataTypeModifications>
+      <affectedElement xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </dataTypeModifications>
+    <signatureModifications>
+      <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_y7-SEGXjEeamEr6y5T9PEQ"/>
+    </signatureModifications>
+    <signatureModifications>
+      <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_LffnMGYQEeamEr6y5T9PEQ"/>
+    </signatureModifications>
+    <signatureModifications>
+      <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_kIceodYgEeWrM-HnT5f_ug"/>
+    </signatureModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="modificationmarks_1:BPChangePropagationDueToDataDependencies">
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:EventGroup" href="cocome-cloud.repository#_H_NURmSEEeaYxPjtCxykSQ"/>
+      <causingElements xsi:type="repository:EventType" href="cocome-cloud.repository#_LZitIGSEEeaYxPjtCxykSQ"/>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:EventGroup" href="cocome-cloud.repository#_RoiXpurCEeW7M_vBrFkmVw"/>
+      <causingElements xsi:type="repository:EventType" href="cocome-cloud.repository#_Ypl_kOrCEeW7M_vBrFkmVw"/>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:EventGroup" href="cocome-cloud.repository#_7xmEFurCEeW7M_vBrFkmVw"/>
+      <causingElements xsi:type="repository:EventType" href="cocome-cloud.repository#_Pmq7oOrEEeW7M_vBrFkmVw"/>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:EventGroup" href="cocome-cloud.repository#_0yKz1urCEeW7M_vBrFkmVw"/>
+      <causingElements xsi:type="repository:EventType" href="cocome-cloud.repository#_2sdWQOrCEeW7M_vBrFkmVw"/>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_iS-YcGVHEead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_c1jCMGVOEead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_v55SUGVNEead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_v97g8GVREead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_9Kj6UGVREead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_gii7kGVSEead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_uz4TMGVSEead_5QKkcGuDg"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_c1jCMGVOEead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_9Kj6UGVREead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_gii7kGVSEead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_v55SUGVNEead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_v97g8GVREead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_uz4TMGVSEead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_m8sIBl_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m8sIB1_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m8sIC1_BEea_gvFl-mCXRQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m8sIC1_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m8sIB1_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_m9nVFF_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9yUNV_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9yUMF_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9yUNF_BEea_gvFl-mCXRQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9yUNF_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9yUMF_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9yUNV_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_j2DHENYgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j2DHEtYgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j2DHEdYgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j2E8QtYgEeWrM-HnT5f_ug"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j2DHEdYgEeWrM-HnT5f_ug"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j2E8QtYgEeWrM-HnT5f_ug"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j2DHEtYgEeWrM-HnT5f_ug"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_m-Sqgl_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m-TRkF_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m-Sqg1_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m-SqhF_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m-SqhV_BEea_gvFl-mCXRQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m-Sqg1_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m-TRkF_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m-SqhV_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m-SqhF_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_m9UaI1_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_c90igKc7Eea6yqnnpazPHg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9UaJF_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9UaJV_BEea_gvFl-mCXRQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9UaJV_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_c90igKc7Eea6yqnnpazPHg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9UaJF_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_5atmgaZiEea90o6iaEaVPw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_QNHAQKZjEea90o6iaEaVPw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_5TIiYKZjEea90o6iaEaVPw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_-0RPsKZjEea90o6iaEaVPw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_SyK-AKZjEea90o6iaEaVPw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_NL55EKZjEea90o6iaEaVPw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_K5a5EKZjEea90o6iaEaVPw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_fnZkAKZjEea90o6iaEaVPw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_88SaYKZjEea90o6iaEaVPw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_6silUKZjEea90o6iaEaVPw"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_5TIiYKZjEea90o6iaEaVPw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_-0RPsKZjEea90o6iaEaVPw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_SyK-AKZjEea90o6iaEaVPw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_NL55EKZjEea90o6iaEaVPw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_QNHAQKZjEea90o6iaEaVPw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_K5a5EKZjEea90o6iaEaVPw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_fnZkAKZjEea90o6iaEaVPw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_88SaYKZjEea90o6iaEaVPw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_6silUKZjEea90o6iaEaVPw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_5pxBAAuoEeavOKEBhe9hQA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_nlX8gAuqEeavOKEBhe9hQA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_e4HRcAuqEeavOKEBhe9hQA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_rKQ_kAuqEeavOKEBhe9hQA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_hP190AuqEeavOKEBhe9hQA"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_rKQ_kAuqEeavOKEBhe9hQA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_hP190AuqEeavOKEBhe9hQA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_e4HRcAuqEeavOKEBhe9hQA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_nlX8gAuqEeavOKEBhe9hQA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_8JvPEGRrEeaYxPjtCxykSQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_BK1KUGRsEeaYxPjtCxykSQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_xQibYGRsEeaYxPjtCxykSQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_szFYoGRsEeaYxPjtCxykSQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_E8AV4GRsEeaYxPjtCxykSQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_szFYoGRsEeaYxPjtCxykSQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_E8AV4GRsEeaYxPjtCxykSQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_xQibYGRsEeaYxPjtCxykSQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_BK1KUGRsEeaYxPjtCxykSQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_qFHNJ9brEeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_g-B3YNbsEeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_vwHLoNbsEeWn1fcBwCRaXA"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_g-B3YNbsEeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_vwHLoNbsEeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_kngqGGSHEeaYxPjtCxykSQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_2LRbwGSHEeaYxPjtCxykSQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_CLM8AGSJEeaYxPjtCxykSQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_CLM8AGSJEeaYxPjtCxykSQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_2LRbwGSHEeaYxPjtCxykSQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_qtu_WAbuEeaw45Je4nSaaQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_s6eaUAcHEeaWztvthg0dUA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_WASWgAcHEeaWztvthg0dUA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_vyz5YAcHEeaWztvthg0dUA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_YT7NEAcHEeaWztvthg0dUA"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_vyz5YAcHEeaWztvthg0dUA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_YT7NEAcHEeaWztvthg0dUA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_WASWgAcHEeaWztvthg0dUA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_s6eaUAcHEeaWztvthg0dUA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_m86KcF_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86xgl_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m87YkF_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86Kc1_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86KdV_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86Kdl_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m87YkV_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86xg1_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86KdF_BEea_gvFl-mCXRQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86Kdl_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m87YkV_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86xg1_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86KdF_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86xgl_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86KdV_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m87YkF_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m86Kc1_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_ydLWIGYLEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_JVWAoGYMEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_6BEv4GYMEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_idaRQGYMEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_mgtHkGYMEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_gE0pQGYMEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_PvxtcGYMEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#__S8uoGYLEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_eUf7IGYMEeamEr6y5T9PEQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_gE0pQGYMEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#__S8uoGYLEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_eUf7IGYMEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_6BEv4GYMEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_mgtHkGYMEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_idaRQGYMEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_PvxtcGYMEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_JVWAoGYMEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_Rf5vkGUVEead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_uGn4UGUVEead_5QKkcGuDg"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_uGn4UGUVEead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_j5pNoNYgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j5pNo9YgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j5pNotYgEeWrM-HnT5f_ug"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j5pNotYgEeWrM-HnT5f_ug"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j5pNo9YgEeWrM-HnT5f_ug"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_GiPOyAb0EeaWztvthg0dUA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_u9OowAuHEeavOKEBhe9hQA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_zz7R8AuHEeavOKEBhe9hQA"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_zz7R8AuHEeavOKEBhe9hQA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_u9OowAuHEeavOKEBhe9hQA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_sV4B2AbuEeaw45Je4nSaaQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_BPbCQAhdEeav9ZCsCxP2FQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_HSfGAAhfEeav9ZCsCxP2FQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_KCIOAAhdEeav9ZCsCxP2FQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_O8430AhdEeav9ZCsCxP2FQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_ERMxMAhdEeav9ZCsCxP2FQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_T9HlkAhfEeav9ZCsCxP2FQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_O8430AhdEeav9ZCsCxP2FQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_ERMxMAhdEeav9ZCsCxP2FQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_T9HlkAhfEeav9ZCsCxP2FQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_BPbCQAhdEeav9ZCsCxP2FQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_HSfGAAhfEeav9ZCsCxP2FQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_KCIOAAhdEeav9ZCsCxP2FQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_f9VFmGUZEead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_k1j_0GUZEead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_iglFcGUZEead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_nMEkMGUZEead_5QKkcGuDg"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_nMEkMGUZEead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_k1j_0GUZEead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_iglFcGUZEead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_yz-beGUZEead_5QKkcGuDg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_1HYogGUZEead_5QKkcGuDg"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_1HYogGUZEead_5QKkcGuDg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_zfWE5wuOEeavOKEBhe9hQA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_IN8a4AuPEeavOKEBhe9hQA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_Mfiy8AuPEeavOKEBhe9hQA"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_Mfiy8AuPEeavOKEBhe9hQA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_IN8a4AuPEeavOKEBhe9hQA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_mp9A2AbuEeaw45Je4nSaaQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_fCNn0Ab4EeaWztvthg0dUA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#__ZSpoEgvEeaxgdhhXt1rQg"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#__ZSpoEgvEeaxgdhhXt1rQg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_fCNn0Ab4EeaWztvthg0dUA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#__nooaGYPEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_LffnMGYQEeamEr6y5T9PEQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_LffnMGYQEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_j5rC0NYgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j5s4ANYgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j5rC0dYgEeWrM-HnT5f_ug"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j5rC0dYgEeWrM-HnT5f_ug"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j5s4ANYgEeWrM-HnT5f_ug"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_lEOnEF_AEeavmo6nsNCw2Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_vIQQsF_AEeavmo6nsNCw2Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_nxKuYF_AEeavmo6nsNCw2Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_7aSqEF_AEeavmo6nsNCw2Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_xjVzEF_AEeavmo6nsNCw2Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_85tOYF_AEeavmo6nsNCw2Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_PRtgcF_BEeavmo6nsNCw2Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_rAiNYF_AEeavmo6nsNCw2Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_54BmEF_AEeavmo6nsNCw2Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_-V770F_AEeavmo6nsNCw2Q"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_nxKuYF_AEeavmo6nsNCw2Q"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_7aSqEF_AEeavmo6nsNCw2Q"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_vIQQsF_AEeavmo6nsNCw2Q"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_xjVzEF_AEeavmo6nsNCw2Q"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_85tOYF_AEeavmo6nsNCw2Q"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_PRtgcF_BEeavmo6nsNCw2Q"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_rAiNYF_AEeavmo6nsNCw2Q"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_54BmEF_AEeavmo6nsNCw2Q"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_-V770F_AEeavmo6nsNCw2Q"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_zV_Y-GYBEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_dZ3DYGYCEeamEr6y5T9PEQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_4iX-QGYBEeamEr6y5T9PEQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_dZ3DYGYCEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_4iX-QGYBEeamEr6y5T9PEQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_DMZ7WGR-EeaYxPjtCxykSQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_IzMksGR-EeaYxPjtCxykSQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_FUMHMGR-EeaYxPjtCxykSQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_FUMHMGR-EeaYxPjtCxykSQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_IzMksGR-EeaYxPjtCxykSQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_m8sIAl_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m8sIBF_BEea_gvFl-mCXRQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m8sIBF_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_kAT2UdYgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_Pl8k8EQ_EeaKq8TkC7OS4w"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_O5-PwEQ_EeaKq8TkC7OS4w"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_Pl8k8EQ_EeaKq8TkC7OS4w"/>
+        <causingElements xsi:type="repository:CompositeDataType" href="cocome-cloud.repository#_kXSy8tYgEeWrM-HnT5f_ug"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_O5-PwEQ_EeaKq8TkC7OS4w"/>
+        <causingElements xsi:type="repository:CompositeDataType" href="cocome-cloud.repository#_kXSy8tYgEeWrM-HnT5f_ug"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_h5yZUOwaEeW_LdalkgkVnQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#__3eI0BEYEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_tIfrwBEZEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_Lm4LsBEYEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_MGN9oBEZEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_fUvA8BEZEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_21xUQBEXEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_YRGbkBEYEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_1fEKkBEYEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_WtNKcBEZEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_lqWxIBEXEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_D95oIBEYEeaZraF8j4MsOw"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#__3eI0BEYEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_tIfrwBEZEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_Lm4LsBEYEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_MGN9oBEZEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_fUvA8BEZEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_21xUQBEXEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_YRGbkBEYEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_1fEKkBEYEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_WtNKcBEZEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_lqWxIBEXEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_D95oIBEYEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_JWIwEA4WEeaNfMfZ20wdnQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_WA5DkBEEEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_Nre30BEEEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_KrMMgA4YEeaNfMfZ20wdnQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_T-XAkBEDEeaZraF8j4MsOw"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_rTPhMKdBEea6yqnnpazPHg"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_sC3tABEEEeaZraF8j4MsOw"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_WA5DkBEEEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_Nre30BEEEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_KrMMgA4YEeaNfMfZ20wdnQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_T-XAkBEDEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_rTPhMKdBEea6yqnnpazPHg"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_sC3tABEEEeaZraF8j4MsOw"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_m9L3QF_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9Sk8l_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9TMAF_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9Sk81_BEea_gvFl-mCXRQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9Sk8l_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9TMAF_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9Sk81_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_zoOe99bnEeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_BUSmUNboEeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_EVY_0NboEeWn1fcBwCRaXA"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_BUSmUNboEeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_EVY_0NboEeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_Nz3i8GR2EeaYxPjtCxykSQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_WFCH0GR2EeaYxPjtCxykSQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_WFCH0GR2EeaYxPjtCxykSQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_j4f-KNYgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j4f-KdYgEeWrM-HnT5f_ug"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j4f-KdYgEeWrM-HnT5f_ug"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_eJ3-p9b1EeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_snj2kNb9EeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_KzMkMNb9EeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_0g8HQNb1EeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#__VsDQNb1EeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_YfKCENb2EeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_Zo-FoNb9EeWn1fcBwCRaXA"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_snj2kNb9EeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_KzMkMNb9EeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_0g8HQNb1EeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#__VsDQNb1EeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_YfKCENb2EeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_Zo-FoNb9EeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_uhQ5R9b0EeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_pj38wNb1EeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_yQC4INb0EeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_ICVfwNb1EeWn1fcBwCRaXA"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_pj38wNb1EeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_yQC4INb0EeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_ICVfwNb1EeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_iean59bzEeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_nCl9sNbzEeWn1fcBwCRaXA"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_nCl9sNbzEeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_m8odoF_BEea_gvFl-mCXRQ"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9qS0F_BEea_gvFl-mCXRQ"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_m9qS0F_BEea_gvFl-mCXRQ"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_kAYu0NYgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_kAYu1NYgEeWrM-HnT5f_ug"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_kAYu1NYgEeWrM-HnT5f_ug"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_G2Jyx9bwEeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_C4AFsNbxEeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_9UFKINbwEeWn1fcBwCRaXA"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#__ZKAQNbwEeWn1fcBwCRaXA"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_C4AFsNbxEeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_9UFKINbwEeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#__ZKAQNbwEeWn1fcBwCRaXA"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="repository:OperationInterface" href="cocome-cloud.repository#_j8RD0NYgEeWrM-HnT5f_ug"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j8RD0dYgEeWrM-HnT5f_ug"/>
+      <signatureModifications>
+        <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_j8RD0dYgEeWrM-HnT5f_ug"/>
+        <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </signatureModifications>
+    </interfaceModifications>
+    <entryLevelSystemCallModifications toolderived="true">
+      <affectedElement xsi:type="usagemodel:EntryLevelSystemCall" href="cocome-cloud-sale-process.bpusagemodel#_VG5DgO39EeaVJe0Sxifr_Q"/>
+      <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </entryLevelSystemCallModifications>
+    <entryLevelSystemCallModifications toolderived="true">
+      <affectedElement xsi:type="usagemodel:EntryLevelSystemCall" href="cocome-cloud-sale-process.bpusagemodel#_c0f6UO37EeaVJe0Sxifr_Q"/>
+      <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </entryLevelSystemCallModifications>
+    <entryLevelSystemCallModifications toolderived="true">
+      <affectedElement xsi:type="usagemodel:EntryLevelSystemCall" href="cocome-cloud-sale-process.bpusagemodel#_OG9AcO3-EeaVJe0Sxifr_Q"/>
+      <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </entryLevelSystemCallModifications>
+    <entryLevelSystemCallModifications toolderived="true">
+      <affectedElement xsi:type="usagemodel:EntryLevelSystemCall" href="cocome-cloud-sale-process.bpusagemodel#_Xz0j0O39EeaVJe0Sxifr_Q"/>
+      <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </entryLevelSystemCallModifications>
+    <entryLevelSystemCallModifications toolderived="true">
+      <affectedElement xsi:type="usagemodel:EntryLevelSystemCall" href="cocome-cloud-sale-process.bpusagemodel#_Wmum4O6zEeasdO_pne2t6A"/>
+      <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </entryLevelSystemCallModifications>
+    <entryLevelSystemCallModifications toolderived="true">
+      <affectedElement xsi:type="usagemodel:EntryLevelSystemCall" href="cocome-cloud-sale-process.bpusagemodel#_ibNrMO37EeaVJe0Sxifr_Q"/>
+      <causingElements xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </entryLevelSystemCallModifications>
+  </changePropagationSteps>
+  <changePropagationSteps xsi:type="modificationmarks_1:BPInterBusinessProcessPropagation">
+    <abstractUserActionModifications xsi:type="modificationmarks_1:BPModifyEntryLevelSystemCall" toolderived="true">
+      <affectedElement xsi:type="usagemodel:EntryLevelSystemCall" href="cocome-cloud-sale-process.bpusagemodel#_Twvv8O39EeaVJe0Sxifr_Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_y7-SEGXjEeamEr6y5T9PEQ"/>
+    </abstractUserActionModifications>
+  </changePropagationSteps>
+</modificationmarks:ReqModificationRepository>

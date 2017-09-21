@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fieldofactivityannotations:BPFieldOfActivityAnnotationsRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:fieldofactivityannotations="http://sdq.ipd.kit.edu/KAMP4BPFieldOfActivityAnnotations/1.0">
+  <developmentArtefactSpecification/>
+  <buildSpecification/>
+  <testSpecification/>
+  <releaseSpecification/>
+  <deploymentSpecification/>
+  <staffSpecification>
+    <personList/>
+    <roleList/>
+  </staffSpecification>
+  <businessProcessSpecification/>
+</fieldofactivityannotations:BPFieldOfActivityAnnotationsRepository>
