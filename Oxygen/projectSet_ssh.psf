@@ -42,6 +42,10 @@
 <project reference="1.0,https://github.com/KAMP-Research/KAMP4IS,master,de.uka.ipd.sdq.pcm.componentinternaldependencies.edit"/>
 <project reference="1.0,https://github.com/KAMP-Research/KAMP4IS,master,de.uka.ipd.sdq.pcm.componentinternaldependencies.editor"/>
 <project reference="1.0,https://github.com/KAMP-Research/KAMP4IS,master,de.uka.ipd.sdq.pcm.componentinternaldependencies.tests"/>
+<project reference="1.0,https://github.com/kit-sdq/XAnnotations.git,master,bundles/edu.kit.ipd.sdq.activextendannotations"/>
+<project reference="1.0,https://github.com/kit-sdq/XAnnotations.git,master,features/edu.kit.ipd.sdq.activextendannotations.feature"/>
+<project reference="1.0,https://github.com/kit-sdq/XAnnotations.git,master,releng/edu.kit.ipd.sdq.activextendannotations.updatesite"/>
+<project reference="1.0,https://github.com/kit-sdq/XAnnotations.git,master,releng/edu.kit.ipd.sdq.activextendannotations.updatesite.aggregated"/>
 <project reference="1.0,https://github.com/kit-sdq/SDQ-Commons.git,master,releng/edu.kit.ipd.sdq.commons.updatesite"/>
 <project reference="1.0,https://github.com/kit-sdq/SDQ-Commons.git,master,releng/edu.kit.ipd.sdq.commons.updatesite.aggregated"/>
 <project reference="1.0,https://github.com/kit-sdq/SDQ-Commons.git,master,bundles/edu.kit.ipd.sdq.commons.util.eclipse"/>
@@ -93,56 +97,54 @@
 <project reference="1.0,https://github.com/MartinLoeper/KAMP4REQ,KampRuleLanguageIntegration_REQ,edu.kit.ipd.sdq.kamp4req.model.modificationmarks.tests"/>
 <project reference="1.0,https://github.com/KAMP-Research/KAMP4IS,master,org.palladiosimulator.pcm.componentinternaldependencies"/>
 <project reference="1.0,https://github.com/kit-sdq/SDQ-Commons.git,master,."/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.common"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.common.ui"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,features/tools.vitruv.dsls.feature"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.mapping"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.mapping.ide"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,tests/dsls/tools.vitruv.dsls.mapping.testframework"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,tests/dsls/tools.vitruv.dsls.mapping.tests"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.mapping.ui"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,tests/dsls/tools.vitruv.dsls.mapping.ui.tests"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.mapping.util"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.mirbase"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.mirbase.ide"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,tests/dsls/tools.vitruv.dsls.mirbase.tests"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.mirbase.ui"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,tests/dsls/tools.vitruv.dsls.mirbase.ui.tests"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.reactions"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.reactions.ide"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,tests/dsls/tools.vitruv.dsls.reactions.tests"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/dsls/tools.vitruv.dsls.reactions.ui"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,tests/dsls/tools.vitruv.dsls.reactions.ui.tests"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/extensions/constructionsimulation/tools.vitruv.extensions.constructionsimulation"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,features/tools.vitruv.extensions.constructionsimulation.feature"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/extensions/constructionsimulation/tools.vitruv.extensions.constructionsimulation.util"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,features/tools.vitruv.extensions.dslsruntime.feature"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/extensions/dslsruntime/tools.vitruv.extensions.dslsruntime.mapping"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/extensions/dslsruntime/tools.vitruv.extensions.dslsruntime.reactions"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/extensions/integration/tools.vitruv.extensions.integration.correspondence"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,features/tools.vitruv.extensions.integration.feature"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.applications"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.change"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.change.echange"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,tests/framework/tools.vitruv.framework.change.echange.tests"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.change.processing"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,tests/framework/tools.vitruv.framework.change.tests"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.changesequenceimporter.tests"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.correspondence"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,features/tools.vitruv.framework.feature"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.metamodel"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.modelsynchronization"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.monitorededitor"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.tests.util"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.tests.util.metamodels"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.testutils.domains"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.tuid"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.userinteracting"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.util"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,bundles/framework/tools.vitruv.framework.vsum"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,tests/framework/tools.vitruv.framework.vsum.tests"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,releng/tools.vitruv.updatesite"/>
-<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,master,releng/tools.vitruv.updatesite.aggregated"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.common"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,features/tools.vitruv.dsls.feature"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.mapping"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.mapping.ide"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,tests/dsls/tools.vitruv.dsls.mapping.testframework"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,tests/dsls/tools.vitruv.dsls.mapping.tests"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.mapping.ui"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,tests/dsls/tools.vitruv.dsls.mapping.ui.tests"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.mapping.util"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.mirbase"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.mirbase.ide"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,tests/dsls/tools.vitruv.dsls.mirbase.tests"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.mirbase.ui"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,tests/dsls/tools.vitruv.dsls.mirbase.ui.tests"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.reactions"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.reactions.ide"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,tests/dsls/tools.vitruv.dsls.reactions.tests"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/dsls/tools.vitruv.dsls.reactions.ui"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,tests/dsls/tools.vitruv.dsls.reactions.ui.tests"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/extensions/constructionsimulation/tools.vitruv.extensions.constructionsimulation"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,features/tools.vitruv.extensions.constructionsimulation.feature"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/extensions/constructionsimulation/tools.vitruv.extensions.constructionsimulation.util"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,features/tools.vitruv.extensions.dslsruntime.feature"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/extensions/dslsruntime/tools.vitruv.extensions.dslsruntime.mapping"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/extensions/dslsruntime/tools.vitruv.extensions.dslsruntime.reactions"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/extensions/integration/tools.vitruv.extensions.integration.correspondence"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,features/tools.vitruv.extensions.integration.feature"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.applications"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.change"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.change.echange"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,tests/framework/tools.vitruv.framework.change.echange.tests"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.change.processing"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,tests/framework/tools.vitruv.framework.change.tests"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.correspondence"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,features/tools.vitruv.framework.feature"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.metamodel"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.modelsynchronization"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.monitorededitor"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.tests.util"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.tests.util.metamodels"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.testutils.domains"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.tuid"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.userinteracting"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.util"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,bundles/framework/tools.vitruv.framework.vsum"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,tests/framework/tools.vitruv.framework.vsum.tests"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,releng/tools.vitruv.updatesite"/>
+<project reference="1.0,https://github.com/vitruv-tools/Vitruv.git,b8ac5bf592aa2ec6d3369ceba1b7dfab21aba4ff,releng/tools.vitruv.updatesite.aggregated"/>
 <project reference="1.0,https://github.com/KAMP-Research/Toometa,master,toometa.archoptions"/>
 <project reference="1.0,https://github.com/KAMP-Research/Toometa,master,toometa.archoptions.edit"/>
 <project reference="1.0,https://github.com/KAMP-Research/Toometa,master,toometa.archoptions.editor"/>
@@ -235,10 +237,16 @@
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1500249816261_9" label="KAMP4REQ" name="KAMP4REQ">
 <item elementID="=edu.kit.ipd.sdq.kamp4req" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=edu.kit.ipd.sdq.kamp4req.model.modificationmarks" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=edu.kit.ipd.sdq.kamp4req.model.modificationmarks.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=edu.kit.ipd.sdq.kamp4req.model.modificationmarks.editor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=edu.kit.ipd.sdq.kamp4req.model.modificationmarks.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=edu.kit.ipd.sdq.kamp4req.model.modificationmarks" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=edu.kit.ipd.sdq.kamp4req.model.modificationmarks.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSets>
+<workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1503778609657_17" label="KIT-SDQ-XAnnotations" name="KIT-SDQ-XAnnotations">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edu.kit.ipd.sdq.activextendannotations" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edu.kit.ipd.sdq.activextendannotations.updatesite.aggregated" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edu.kit.ipd.sdq.activextendannotations.feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edu.kit.ipd.sdq.activextendannotations.updatesite" type="4"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1499339539804_15" label="SDQ-Commons" name="SDQ-Commons">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edu.kit.ipd.sdq.commons.util.java" type="4"/>
@@ -339,47 +347,45 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.applications" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.correspondence" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.extensions.constructionsimulation.util" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.tests.util.metamodels" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mapping.ide" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.updatesite.aggregated" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mirbase" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.vsum" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.common" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mapping.testframework" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.tuid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mirbase.ui.tests" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.reactions.ui" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.testutils.domains" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mapping" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.reactions.ui.tests" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.extensions.constructionsimulation" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mapping.tests" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.monitorededitor" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.tests.util" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.extensions.dslsruntime.feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.change" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.extensions.integration.correspondence" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.common.ui" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.change.tests" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.extensions.constructionsimulation.feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mirbase.ui" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.reactions.ide" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.vsum.tests" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.userinteraction" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.change.echange" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.extensions.dslsruntime.mapping" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.modelsynchronization" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.changesequenceimporter.tests" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.updatesite" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.tests.util.metamodels" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mirbase" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.vsum" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mapping.testframework" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.tuid" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mirbase.ui.tests" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.testutils.domains" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.tests.util" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.change" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.extensions.constructionsimulation.feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mirbase.tests" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mapping.util" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.vsum.tests" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.change.processing" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.util" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.userinteraction" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.change.echange.tests" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.extensions.dslsruntime.reactions" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.change.echange" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.extensions.dslsruntime.mapping" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.dsls.mirbase.ide" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.framework.modelsynchronization" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.updatesite" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tools.vitruv.extensions.integration.feature" type="4"/>
 </workingSets>
 </psf>
